@@ -22,6 +22,7 @@ jobs:
               'documentation': 'shripad621git',
               'test': 'shripad621git',
               'datamodel': ['pimpalemahesh', 'shripad621git'],
+              'certification': ['VaishaliAvhale', 'shripad621git'],
             };
 
             async function assignIssue(item) {
