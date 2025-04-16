@@ -3,9 +3,10 @@ name: Auto Assign on Label
 on:
   issues:
     types: [labeled]
-  pull_request:
-    types: [labeled]
-
+    
+permissions:
+  issues: write
+  
 jobs:
   auto-assign:
     runs-on: ubuntu-latest
